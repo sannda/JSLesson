@@ -104,3 +104,19 @@ if (b > c) {
 } else {
   console.log(c + ' больше, чем ' + b);
 }
+// Task 4
+let inp1 = document.querySelector('.input1');
+let inp2 = document.querySelector('.input2');
+let btn1 = document.querySelector('.button1');
+inp1.value = '';
+inp2.value = '';
+btn1.onclick = function(){
+  let x = +inp1.value;
+  let y = +inp2.value;
+  if(x > y){
+    console.log (x + ' больше ' + y);
+  } else
+  {
+    console.log(x + ' меньше ' + y);
+  }
+}
