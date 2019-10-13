@@ -1,0 +1,40 @@
+@import "base"
+@import "fonts"
+@import "var"
+
+.wrapper
+  clear: both
+
+h1
+  margin: 12px 24px
+
+main
+  position: relative
+  margin: 0 auto
+  clear: both
+  width: 90%
+  color: $white
+
+.block-1,
+.block-2
+  position: relative
+  width: 49%
+
+.block-1
+  float: left
+
+.block-2
+  text-align: center
+  float: right
+  background: url(../img/logo2.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  height: 600px
+  border-radius: 5px
+  border: 2px solid $white
+
+div
+  margin-bottom: 5px  
+
+// Медиа запросы    
+@import "media"
