@@ -1,0 +1,32 @@
+@import "var"
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	transition: .1s ease-in-out
+	&:before, &:after
+		box-sizing: border-box
+		transition: .1s ease-in-out
+
+body, html
+	height: 100%
+		
+body
+	font-size: 14px
+	line-height: 1.65
+	max-width: 1280px
+	font-family: UbuntuLight, serif
+	display: block
+	overflow: hidden
+	background: url(../img/Qgh5hjfdpNs.jpg)
+	background-size: cover
+
+h1
+	color: $white
+
+.clearfix
+	&:after
+		content: ""
+		display: table
+		clear: both
