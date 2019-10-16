@@ -81,3 +81,7 @@ document.querySelector('#btn1').onclick = function () {
   }
   document.querySelector('#lb1').innerHTML = tmpOut;
 }
+
+let divOut = document.querySelectorAll('.div-1');
+console.log(divOut.length);
+document.querySelector('.divO').innerHTML = divOut.length;
