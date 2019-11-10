@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.65;
+  font-family: UbuntuLight, serif;
+  display: block;
+  overflow-x: hidden;
+  background: rgba(255, 69, 0, 0.8);
+}
+
+h1 {
+  color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@font-face {
+  font-family: "UbuntuRegular";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "UbuntuLight";
+  src: url("../fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: "FiraRegular";
+  src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FiraBold";
+  src: url("../fonts/Fira_Sans/FiraSans-Bold.ttf");
+}
+
+.wrapper {
+  clear: both;
+}
+
+h1 {
+  margin: 12px 24px;
+}
+
+main {
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+  width: 90%;
+  color: #fff;
+}
+
+.block-1,
+.block-2 {
+  position: relative;
+  width: 49%;
+}
+
+.block-1 {
+  float: left;
+}
+
+.block-2 {
+  text-align: center;
+  float: right;
+}
+
+.block-2 img {
+  height: 286px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
