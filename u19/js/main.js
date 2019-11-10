@@ -37,3 +37,11 @@ document.querySelector('.four').onmousedown = function (event) {
 document.querySelector('.four').onmouseup = function (event) {
   document.querySelector('.four').style.background = 'blue';
 }
+
+
+let val =10;
+document.querySelector('button').onclick = function (event) {
+  val++;
+  document.querySelector('progress').value = val;
+
+}
